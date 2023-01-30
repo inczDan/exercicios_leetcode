@@ -1,6 +1,8 @@
 #https://leetcode.com/problems/maximum-gap/
-nums = [1,1,1,5,5,5]
 
+
+#solução IDE
+nums = [1,1,1,5,5,5]
 def gap(nums):
     duplicado = []
     unicos = []
@@ -22,7 +24,7 @@ def gap(nums):
         return result
 gap(nums)
             
-#0-------------------------
+#0------------------------- solução leetcode
 def maximumGap(nums):
     if len(nums)<2:
         return 0
@@ -32,4 +34,3 @@ def maximumGap(nums):
         if abs(nums[i]-nums[i+1])>max:
             max=abs(nums[i]-nums[i+1])
     return max
-maximumGap(nums)

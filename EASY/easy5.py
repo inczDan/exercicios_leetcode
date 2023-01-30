@@ -1,4 +1,6 @@
 #https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/
+
+#solução IDE
 def maisDoces(doces, extras):
     bolso = 0
     lista = []
@@ -12,7 +14,7 @@ def maisDoces(doces, extras):
     print(lista, i)
 maisDoces([2,3,5,1,3], 3)
 
-#----------------------------
+#----------------------------Solução Leetcode
 class Solution:
     def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
         bolso = max(candies)

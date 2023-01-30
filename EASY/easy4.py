@@ -1,4 +1,9 @@
 #https://leetcode.com/problems/search-insert-position/
+
+
+
+
+#solução leetcode
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         if target in nums:

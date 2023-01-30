@@ -1,4 +1,6 @@
 #https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/description/
+
+#Solução IDE
 nums = [1,13,10,12,31]
 inversao = []
 def inverte(nums):
@@ -9,7 +11,8 @@ def inverte(nums):
         return len(set(nums))
 inverte(nums)
 
-#---------------------
+#--------------------- solução leetcode
+
 class Solution:
     def countDistinctIntegers(self, nums: List[int]) -> int:
         n = len(nums)

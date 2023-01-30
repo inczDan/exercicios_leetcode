@@ -1,4 +1,6 @@
 #https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/
+
+#solução IDE
 nums = [1,3,6,10,12,15]
 total = []
 def valor(nums):
@@ -9,7 +11,7 @@ def valor(nums):
     print(media)
 valor(nums)
 
-
+#Solução Leetcode
 class Solution:
     def averageValue(self, nums: List[int]) -> int:
         total = []

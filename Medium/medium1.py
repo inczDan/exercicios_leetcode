@@ -1,4 +1,6 @@
 #https://leetcode.com/problems/find-all-duplicates-in-an-array/
+
+#Solução IDE
 nums = [4,3,2,7,8,2,3,1]
 def dupli(nums):
     duplicado = []
@@ -11,7 +13,8 @@ def dupli(nums):
     print (duplicado)
     return duplicado
 dupli(nums)
-#----------------
+#--------------------- solução leetcode
+
 class Solution:
     def findDuplicates(self, nums: List[int]) -> List[int]:
         dupli = set()
